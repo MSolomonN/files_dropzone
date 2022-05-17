@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files dropping zone</title>
+    <!-- Drop Css -->
+    <link rel="stylesheet" href="./files_dropzone.css">
+</head>
+<body style="width:700px;margin:150px auto;">
+
+    <!-- Drop Html -->
+    <div>
+        <input type="file" class="choose-finput" id="choose-finput" multiple>
+        <div class="drop-zone" id="dropping-zone">
+            <div id="uploaded-area">
+            </div>
+            <div>
+                <span>
+                    Drop files here or <label for="choose-finput" class="choose-label">Choose</label>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Drop js -->
+    <script src="./files_dropzone.js"></script>
+</body>
+</html>
