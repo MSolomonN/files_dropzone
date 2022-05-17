@@ -5,6 +5,7 @@ A Simple File Dropping zone
 All Dropped or Selected Files are stored in a list variable named 'dropped_files'
 To upload the files you can append the files to your form like below
 
+//
 let your_form = document.getElementById("your-form-id");
 
 your_form.onsubmit = async (event) => {
