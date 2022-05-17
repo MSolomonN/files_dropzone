@@ -2,4 +2,4 @@
 
 A Simple File Dropping zone
 
-![files-dropzone](https://user-images.githubusercontent.com/54437169/168843863-2564feed-19eb-4ce5-a12c-45de84453759.PNG)
+![files-dropzone](https://user-images.githubusercontent.com/54437169/168844550-fa321061-71f8-4623-a620-eb2c34761d13.png)
