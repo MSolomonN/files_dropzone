@@ -1,6 +1,14 @@
 const drop_zone = document.getElementById('dropping-zone');
 const choose_finput = document.getElementById('choose-finput');
+const clear_files_btn = document.getElementById('clear-files');
 const dropped_files = [];
+
+clear_files_btn.onclick = () => {
+    let uploaded_area = document.getElementById('uploaded-area');
+    dropped_files.length = 0;
+    uploaded_area.innerHTML = '';
+    clear_files_btn.style.display = 'none';
+}
 
 // add manually choosen files
 choose_finput.onchange = (event) => {
@@ -29,6 +37,7 @@ const render_uploded_files = () => {
         }
     }
 
+    clear_files_btn.style.display = 'inline';
     uploaded_area.innerHTML = `<div class="dropzone-uploaded-images">${images_html}</div>`;
     uploaded_area.innerHTML += `<div class="dropzone-uploaded-files">${files_html}</div>`;
 }
